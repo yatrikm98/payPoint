@@ -1,0 +1,40 @@
+.editMainDiv {
+           
+}
+
+.editTextArea {
+    height: auto;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.updateButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.updateButton button {
+    cursor: pointer;
+    width:100px;
+    height:25px;
+    margin: 0.4rem;
+    border: 0px;
+    background-color: #14AD14;
+    color: white;
+}
+
+
+.updateButton button:hover {
+    background-color: #37BC37;
+}
+
+@media screen and (max-width: 700px) {
+
+}

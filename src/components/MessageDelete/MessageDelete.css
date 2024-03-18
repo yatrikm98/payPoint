@@ -1,0 +1,34 @@
+.mainDeleteDiv {
+    /* margin: 1rem; */
+}
+
+.deleteButtonDiv {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0.4rem;
+}
+
+.deleteYes,
+.deleteNo {
+    cursor: pointer;
+    width: 100px;
+    height: 25px;
+}
+
+.deleteYes {
+    background-color: #8382C9;
+color: white;
+}
+
+.deleteYes:hover {
+    background-color: #5E5BAC;
+}
+
+.deleteNo {
+    background-color: chocolate;
+color: white;
+}
+
+.deleteNo:hover {
+    background-color: #A56940;
+}

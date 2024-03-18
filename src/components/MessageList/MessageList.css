@@ -1,0 +1,22 @@
+.mainDivList {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.mainTitle {
+    margin-top: 2rem;
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 1100px) {    
+    .mainDivList {
+        display: flex;
+        justify-content: center;
+    }
+}
